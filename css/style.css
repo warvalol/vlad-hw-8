@@ -4,22 +4,19 @@
 
 .background-header-main {
   background: url(../img/mobile.jpg);
-  background-repeat: no-repeat
+  background-repeat: no-repeat;
 }
 
 /* HEADER */
 .container {
   max-width: 320px;
-  
 }
 
 .header-content {
   display: flex;
   justify-content: center;
   margin-bottom: 40px;
-
 }
-
 
 .main-list {
   display: flex;
@@ -91,17 +88,12 @@
   align-items: center;
   border: 2px solid #ff4e50;
   border-radius: 20px;
-  background-color: transparent;
-  color: #ff4e50;
-  cursor: pointer;
+  background-color: #ff4e50;
+  color: white;
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
   font-weight: 700;
   width: 280px;
   height: 40px;
-}
-
-.find-button:hover {
-  background-color: #ff4e50;
-  color: white;
+  cursor: pointer;
 }
