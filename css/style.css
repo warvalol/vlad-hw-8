@@ -250,6 +250,7 @@
   }
 
   .meet-button {
+    width: 192px;
     margin-bottom: 40px;
   }
 }
