@@ -34,6 +34,10 @@
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
   font-weight: 700;
+  border: 2px solid rgba(255, 255, 255, 0);
+  border-radius: 20px;
+  padding: 11px 17px 11px 17px;
+  cursor: pointer;
 }
 
 .main-list-item:not(:nth-last-child(-n + 1)) {
@@ -41,10 +45,7 @@
 }
 
 .main-list-item:hover {
-  border: 2px solid white;
-  border-radius: 20px;
-  padding: 11px 17px 11px 17px;
-  cursor: pointer;
+  border: 2px solid rgba(255, 255, 255, 1);
 }
 
 .main-list-link {
@@ -156,9 +157,90 @@
   color: #7a7a7a;
 }
 
+.icon-box {
+  margin: 20px auto;
+  position: relative;
+  width: 121px;
+  height: 121px;
+}
+
 .meet-photo {
   padding: 0;
-  margin: 0 0 20px 0;
+  /*margin: 0 0 20px 0;*/
+  /*width: 121px;
+  height: auto;*/
+}
+
+.icon-tv {
+  position: absolute;
+  top: 65%;
+  left: 65%;
+  height: 100%;
+  width: 100%;
+  background-image: url(../img/icon01png.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #ff4e50;
+  border: 4px solid white;
+  border-radius: 50%;
+  width: 16px;
+  padding: 10px;
+  height: 16px;
+  margin: 0 auto;
+}
+
+.icon-chemistry {
+  position: absolute;
+  top: 65%;
+  left: 65%;
+  height: 100%;
+  width: 100%;
+  background-image: url(../img/icon02.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #ffa507;
+  border: 4px solid white;
+  border-radius: 50%;
+  width: 16px;
+  padding: 10px;
+  height: 16px;
+  margin: 0 auto;
+}
+
+.icon-tea {
+  position: absolute;
+  top: 65%;
+  left: 65%;
+  height: 100%;
+  width: 100%;
+  background-image: url(../img/icon03.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #1cd7ad;
+  border: 4px solid white;
+  border-radius: 50%;
+  width: 16px;
+  padding: 10px;
+  height: 16px;
+  margin: 0 auto;
+}
+
+.icon-plane {
+  position: absolute;
+  top: 65%;
+  left: 65%;
+  height: 100%;
+  width: 100%;
+  background-image: url(../img/icon04.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #4e73db;
+  border: 4px solid white;
+  border-radius: 50%;
+  width: 16px;
+  padding: 10px;
+  height: 16px;
+  margin: 0 auto;
 }
 
 .meet-button {
@@ -188,10 +270,8 @@
 
   .background-header-main {
     width: 768px;
-    height: 700px;
     background-image: url(../img/tablet.jpg);
     background-repeat: no-repeat;
-    
   }
 
   .header-content {
@@ -232,7 +312,7 @@
   }
 
   /* section MEET partner */
-  
+
   .meet-title {
     margin: 0 0 32px 0;
   }
@@ -252,5 +332,24 @@
   .meet-button {
     width: 192px;
     margin-bottom: 40px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .container {
+    width: 1440px;
+  }
+
+  .background-header-main {
+    width: 1440px;
+    background-image: url(../img/desktop.jpg);
+  }
+
+  .header-content {
+    width: 940px;
+  }
+
+  .meet-list {
+    width: 940px;
   }
 }
