@@ -194,7 +194,6 @@
     
   }
 
-  
   .header-content {
     display: flex;
     flex-direction: row-reverse;
@@ -233,20 +232,24 @@
   }
 
   /* section MEET partner */
-  .meet-content {
-    
+  
+  .meet-title {
+    margin: 0 0 32px 0;
   }
 
   .meet-list {
     flex-wrap: wrap;
     justify-content: space-around;
     width: 470px;
+    padding: 0;
+    margin-bottom: 40px;
   }
 
   .meet-list-item {
     width: 217px;
   }
 
-  
-
+  .meet-button {
+    margin-bottom: 40px;
+  }
 }
