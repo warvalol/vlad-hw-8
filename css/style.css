@@ -1,5 +1,13 @@
+
+
 .wrapper {
   font-family: "Montserrat", "Roboto", sans-serif;
+  max-width: 100%;
+}
+
+.center {
+  width: 320px;
+  margin: auto;
 }
 
 .background-header-main {
@@ -264,6 +272,11 @@
 /* TABLET min-width 768px */
 
 @media (min-width: 768px) {
+
+  .center {
+    width: 768px;
+  }
+
   .container {
     width: 768px;
   }
@@ -336,6 +349,11 @@
 }
 
 @media (min-width: 1440px) {
+
+  .center {
+    width: 1440px;
+  }
+
   .container {
     width: 1440px;
   }
